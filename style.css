@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.quiz {
+    gap: 1rem;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.answer-btns {
+    gap: 0.5rem;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.correct {
+    background-color: green;
+
+}
+
+.incorrect {
+    background-color: pink;
+}
+
+.btn:hover:not([disabled]) {
+    background-color: #222;
+    color: #fff;
+}
